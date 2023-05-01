@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: rabbitmq
+
+rabbitmq:
+  queue:
+    name: java_rabbitMQ_queue_name
+  jsonQueue:
+    name: java_rabbitMQ_jsonQueue_name
+  exchange:
+    name: java_rabbitMQ_exchange
+  routing:
+    key: java_rabbitMQ_routing_key
+  jsonRouting:
+    key: java_rabbitMQ_jsonRouting_key
